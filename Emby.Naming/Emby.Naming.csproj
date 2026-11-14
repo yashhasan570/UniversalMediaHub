@@ -37,7 +37,7 @@
     <Authors>Jellyfin Contributors</Authors>
     <PackageId>Jellyfin.Naming</PackageId>
     <VersionPrefix>13.0.0</VersionPrefix>
-    <RepositoryUrl>https://github.com/jellyfin/jellyfin</RepositoryUrl>
+    <RepositoryUrl>https://github.com/yashhasan570/UniversalMediaHub</RepositoryUrl>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
   </PropertyGroup>
 

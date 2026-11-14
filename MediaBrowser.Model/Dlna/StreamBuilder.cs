@@ -2298,7 +2298,7 @@ namespace MediaBrowser.Model.Dlna
 
             // Never direct play audio in matroska when the device only declare support for webm.
             // The first check is not enough because mkv is assumed can be webm.
-            // See https://github.com/jellyfin/jellyfin/issues/13344
+            // See https://github.com/yashhasan570/UniversalMediaHub/issues/13344
             return !ContainerHelper.ContainsContainer("mkv", item.Container)
                    || profile.SupportsContainer("mkv");
         }

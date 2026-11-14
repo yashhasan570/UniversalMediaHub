@@ -42,7 +42,7 @@ public sealed class ItemUpdateControllerTests : IDisposable
     [Fact]
     public async Task UpdateItem_WhenOnlyTagsFieldSupplied_DoesNotThrowAndAppliesTags()
     {
-        // Regression test for https://github.com/jellyfin/jellyfin/issues/17366
+        // Regression test for https://github.com/yashhasan570/UniversalMediaHub/issues/17366
         // A partial update payload that only sets "Tags" leaves every other
         // BaseItemDto collection property null (they have no default
         // initializer). Genres and ProviderIds used to be fed straight into
@@ -90,7 +90,7 @@ public sealed class ItemUpdateControllerTests : IDisposable
     [Fact]
     public async Task UpdateItem_SeriesRatingUnchanged_KeepsEpisodeRatings()
     {
-        // Regression test for https://github.com/jellyfin/jellyfin/issues/18241
+        // Regression test for https://github.com/yashhasan570/UniversalMediaHub/issues/18241
         var (series, season, episodes) = CreateSeries("TV-PG", "TV-PG", "TV-14", null);
 
         await InvokeUpdateItem(new BaseItemDto { Overview = "New overview", OfficialRating = "TV-PG" }, series);

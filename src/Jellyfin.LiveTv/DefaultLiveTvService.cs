@@ -73,7 +73,7 @@ namespace Jellyfin.LiveTv
         public string Name => ServiceName;
 
         /// <inheritdoc />
-        public string HomePageUrl => "https://github.com/jellyfin/jellyfin";
+        public string HomePageUrl => "https://github.com/yashhasan570/UniversalMediaHub";
 
         public async Task RefreshSeriesTimers(CancellationToken cancellationToken)
         {
@@ -696,7 +696,7 @@ namespace Jellyfin.LiveTv
                     continue;
                 }
 
-                // Skip ShowId without SubKey from duplicate removal actions - https://github.com/jellyfin/jellyfin/issues/5856
+                // Skip ShowId without SubKey from duplicate removal actions - https://github.com/yashhasan570/UniversalMediaHub/issues/5856
                 if (group.Key.EndsWith("0000", StringComparison.Ordinal))
                 {
                     continue;

@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jellyfin Project")]
-[assembly: AssemblyProduct("Jellyfin Server")]
+[assembly: AssemblyProduct("Universal Media Hub Server")]
 [assembly: AssemblyCopyright("Copyright ©  2019 Jellyfin Contributors. Code released under the GNU General Public License")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

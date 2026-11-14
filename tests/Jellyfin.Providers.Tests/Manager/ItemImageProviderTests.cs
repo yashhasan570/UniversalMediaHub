@@ -181,7 +181,7 @@ namespace Jellyfin.Providers.Tests.Manager
         [InlineData(ImageType.Backdrop, 2)]
         public void MergeImages_StoredTimeTruncatedToMicroseconds_NoChange(ImageType imageType, int imageCount)
         {
-            // Regression test for https://github.com/jellyfin/jellyfin/issues/18274
+            // Regression test for https://github.com/yashhasan570/UniversalMediaHub/issues/18274
             var fileTime = new DateTime(2021, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddTicks(1234567);
             var storedTime = fileTime.AddTicks(-(fileTime.Ticks % 10));
 

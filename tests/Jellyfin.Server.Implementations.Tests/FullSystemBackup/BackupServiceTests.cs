@@ -26,7 +26,7 @@ namespace Jellyfin.Server.Implementations.Tests.FullSystemBackup;
 /// <summary>
 /// Tests for <see cref="BackupService"/>, in particular that a single row of corrupt
 /// <see cref="KeyframeData"/> (e.g. malformed <c>KeyframeTicks</c> JSON) does not abort
-/// an otherwise healthy backup. See https://github.com/jellyfin/jellyfin/issues/17216.
+/// an otherwise healthy backup. See https://github.com/yashhasan570/UniversalMediaHub/issues/17216.
 /// </summary>
 public sealed class BackupServiceTests : IDisposable
 {

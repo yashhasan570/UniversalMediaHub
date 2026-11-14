@@ -9,7 +9,7 @@ public static class ImageHelperTests
     [Fact]
     public static void GetNewImageSize_ExplicitSizeLargerThanSource_ClampsToSource()
     {
-        // Regression test for https://github.com/jellyfin/jellyfin/issues/17056: the caller-supplied
+        // Regression test for https://github.com/yashhasan570/UniversalMediaHub/issues/17056: the caller-supplied
         // width/height were used verbatim, so a single request could ask for a 23100x23100 encode.
         var options = new ImageProcessingOptions { Width = 23100, Height = 23100 };
 
